@@ -5,12 +5,15 @@ gclient_gn_args = [
   'checkout_android_native_support',
   'checkout_libaom',
   'checkout_nacl',
-  'checkout_oculus_sdk'
+  'checkout_oculus_sdk',
+  'string_chromium_version'
 ]
 
 vars = {
   'chromium_version':
     '69.0.3497.106',
+  'string_chromium_version':
+    '"' + (Var("chromium_version")) + '"',
   'node_version':
     '4d44266b78256449dd6ae86e419e3ec07257b569',
 

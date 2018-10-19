@@ -21,7 +21,6 @@
 #include "atom/browser/zoom_level_delegate.h"
 #include "atom/common/application_info.h"
 #include "atom/common/atom_version.h"
-#include "atom/common/chrome_version.h"
 #include "atom/common/options_switches.h"
 #include "base/command_line.h"
 #include "base/files/file_path.h"

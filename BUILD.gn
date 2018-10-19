@@ -254,7 +254,10 @@ static_library("electron_lib") {
     "//third_party/blink/renderer",
   ]
 
-  defines = []
+  defines = [
+    "CHROME_VERSION_STRING=\"$string_chromium_version\"",
+    "CHROME_VERSION=\"v$string_chromium_version\"",
+  ]
   libs = []
 
   extra_source_filters = []
